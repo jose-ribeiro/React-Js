@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 export default function Parametros(props) {
     const status = props.nota >= 7 ? 'Aprovado' : 'Reprovado'
