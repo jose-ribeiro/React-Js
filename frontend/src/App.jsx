@@ -9,6 +9,8 @@ import Fragmento from "./Componentes/Basicos/Fragmento";
 import NunAleatorio from "./Componentes/Basicos/NunAleatorio";
 import Card from "./Componentes/layout/Card";
 import TabelaProduto from "./Componentes/repeticao/TabelaProduto";
+import ParouImpa from "./Componentes/condicional/ParouImpa";
+import Usuarioinfo from "./Componentes/condicional/UsuarioInfo";
 
 
 export default () => (
@@ -16,6 +18,12 @@ export default () => (
     <div className="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
+
+        <Card titulo="#08 Renderização Condicional" color="#982395">
+            <ParouImpa numero={21}/>
+            <Usuarioinfo  />
+            
+        </Card>              
 
         <Card titulo="#07 Desafio" color="#3A9AD8">
             <TabelaProduto/>

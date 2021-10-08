@@ -1,10 +1,11 @@
-import react from "react";
 
-export default propos =>{
+
+export default props => {
+    const isPar = props.numero % 2===0
+
     return(
         <div>
-            <span>Par</span>
-            <span>Impar</span>
+            {isPar ? <span>Par</span>:<span>Impar</span>}
         </div>
     )
 }
