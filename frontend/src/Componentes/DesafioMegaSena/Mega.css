@@ -1,0 +1,17 @@
+.Mega input{
+    font-size: 1.4rem;
+    width: 50px;
+
+}
+.Mega label{
+    margin-right: 10px;
+}
+
+.Mega button{
+    margin: 5px;
+    font-size: 1.4rem;
+    height: 30px;
+    border-radius: 10px;
+    
+    background-color: #65289e;
+}
